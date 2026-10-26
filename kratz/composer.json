@@ -1,0 +1,21 @@
+{
+    "name": "vstam/kratz",
+    "type": "project",
+    "require": {
+        "php": ">=8.2",
+        "ext-pdo": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kratz\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Kratz\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^12.5"
+    }
+}
